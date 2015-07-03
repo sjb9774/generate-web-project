@@ -1,5 +1,6 @@
 from sqlalchemy.ext.declarative import declarative_base, declared_attr
 from sqlalchemy.orm import sessionmaker, scoped_session
+from sqlalchemy import create_engine
 from {$name}.config import config
 
 def new_engine(uri=None):
